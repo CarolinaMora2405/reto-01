@@ -1,0 +1,1 @@
+# RUT\nSoporte ficticio.

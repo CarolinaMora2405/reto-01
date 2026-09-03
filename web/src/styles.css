@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #17324d;
+  background: #eef3f7;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 920px;
+  height: 100vh;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 40px #17324d18;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 26px;
+  border-bottom: 1px solid #dbe4ea;
+}
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+header p {
+  font-size: 12px;
+  color: #667788;
+  margin: 3px 0;
+}
+.mark {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #0d766e;
+  color: white;
+  font-weight: 800;
+}
+.status {
+  margin-left: auto;
+  color: #087f5b;
+  font-size: 12px;
+}
+.chat {
+  flex: 1;
+  overflow: auto;
+  padding: 28px;
+}
+.chat article {
+  margin: 0 0 22px;
+  max-width: 78%;
+}
+.chat .user {
+  margin-left: auto;
+}
+.bubble {
+  padding: 14px 17px;
+  border-radius: 16px;
+  background: #edf2f5;
+  line-height: 1.5;
+}
+.user .bubble {
+  background: #17324d;
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+.assistant .bubble {
+  border-bottom-left-radius: 4px;
+}
+.tool {
+  margin: 8px 8px 0;
+  padding: 9px 12px;
+  border: 1px solid #cddbe3;
+  border-radius: 9px;
+  font-size: 12px;
+  background: #f8fafb;
+}
+.tool summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #0d766e;
+}
+.tool pre {
+  white-space: pre-wrap;
+}
+.confirmation {
+  margin-top: 12px;
+  padding: 15px;
+  border: 2px solid #e7a72e;
+  border-radius: 12px;
+  background: #fff8e7;
+}
+.confirmation p {
+  font-size: 13px;
+}
+.confirmation button,
+form button {
+  border: 0;
+  border-radius: 8px;
+  background: #0d766e;
+  color: #fff;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.thinking {
+  color: #667788;
+  font-size: 13px;
+}
+form {
+  display: flex;
+  gap: 10px;
+  padding: 18px 26px;
+  border-top: 1px solid #dbe4ea;
+}
+input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #bdcbd4;
+  border-radius: 10px;
+  font: inherit;
+}
+button:disabled {
+  opacity: 0.5;
+}
+@media (max-width: 600px) {
+  main {
+    height: 100dvh;
+  }
+  .chat article {
+    max-width: 92%;
+  }
+  .status {
+    display: none;
+  }
+}

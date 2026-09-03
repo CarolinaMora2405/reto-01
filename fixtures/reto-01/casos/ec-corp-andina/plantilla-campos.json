@@ -1,0 +1,1 @@
+[{"etiqueta":"Nombre legal","obligatorio":true},{"etiqueta":"Identificación tributaria","obligatorio":true},{"etiqueta":"Dirección","obligatorio":true},{"etiqueta":"Representante legal","obligatorio":true},{"etiqueta":"Teléfono","obligatorio":false}]

@@ -1,0 +1,1 @@
+[{"etiqueta":"Razón social","obligatorio":true},{"etiqueta":"Identificación tributaria","obligatorio":true},{"etiqueta":"Correo","obligatorio":true},{"etiqueta":"Tipo de cuenta","obligatorio":true},{"etiqueta":"Código SWIFT","obligatorio":false}]

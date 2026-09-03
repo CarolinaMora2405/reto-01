@@ -1,0 +1,7 @@
+{
+  "razon social": "razon_social", "nombre legal": "razon_social",
+  "nombre comercial": "nombre_comercial", "nit": "nit", "direccion fiscal": "direccion",
+  "direccion": "direccion", "telefono": "telefono", "correo": "correo",
+  "representante legal": "representante_legal", "identificacion representante": "identificacion_representante",
+  "banco": "banco", "tipo de cuenta": "tipo_cuenta", "numero de cuenta": "numero_cuenta", "ciiu": "ciiu"
+}
