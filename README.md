@@ -47,4 +47,6 @@ Límites predeterminados: 25 ciclos, 12.000 tokens por sesión y 30 segundos por
 Prompt recomendado: `Procesa el caso "ec-corp-andina". Dime qué quedó lleno y qué falta. No envíes nada todavía.`
 
 ## Link público
+La aplicación está desplegada en Render y puede probarse desde:
 
+https://registro-proveedor.onrender.com/
